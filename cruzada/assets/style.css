@@ -51,7 +51,7 @@ main {
   position: relative;
   z-index: 0;
 }
-main img {
+/* main img {
   width: 100%;
   display: block;
 }
@@ -61,7 +61,7 @@ main .help {
   right: 1em;
   top: 1em;
   cursor: pointer;
-}
+} */
 main .grid {
   width: 94%;
   padding: 2%;
@@ -69,11 +69,11 @@ main .grid {
 main .grid .row {
   width: 96%;
   padding: 0 2%;
-  height: 8%;
+  height: 7%;
   float: left;
 }
 main .grid .row div {
-  width: 4%;
+  width: 3.5%;
   height: 100%;
   float: left;
   text-align: center;
@@ -158,5 +158,6 @@ input {
   display: flex;
   justify-content: center;
   text-align: center;
+  color: black;
 }
 

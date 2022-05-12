@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Palavras Cruzadas</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+<script src="validacao.js"></script>
+
+</head>
+<body>
+	<!-- <div class="modal">
+		<h1>Palavras Cruzadas</h1>
+		<p>Você viu, no seu texto base, que o posicionamento nada mais é do que uma estratégia de diferenciação que deve guiar a criação de um diferencial que tenha valor para o cliente e que seja difícil de ser copiado pela concorrência. E você, sabe identificar qual a descrição de cada Estratégia de Posicionamento?</p>
+		<button class="start">Começar</button>
+	</div> -->
+	<div class="fade"></div>
+	<main>
+		<!-- <div class="help"><img src="assets/img/help.png"></div> -->
+		<div class="grid">
+			<div class="row">
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="a p1">&downarrow;</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="a p2">&downarrow;</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+			</div>
+			<div class="row">
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+			</div>
+			<div class="row">
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+			</div>
+			<div class="row">
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+                <div class="a p5">&rightarrow;</div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+			</div>
+			<div class="row">
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				
+			</div>
+			<div class="row">
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div class="E">/</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+			</div>
+			<div class="row">
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="E">/</div>
+			</div>
+			<div class="row">
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="E">/</div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+			</div>
+			<div class="row">
+				<div class="a p5">&rightarrow;</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="E">/</div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+			</div>
+			<div class="row">
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+			</div>
+			<div class="row">
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+			</div>
+			<div class="row">
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="E">/</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+			</div>
+			<div class="row">
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+
+			</div>
+			<div class="row">
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				
+			</div>
+			<div class="row">
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+			</div>
+			<div class="row">
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+			</div>
+			 <div class="row">
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div class="T"><input type="text"></div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+				<div>-</div>
+			</div>
+		</div>
+		<!-- <div class="opts"> -->
+			<!-- <div class="hint">
+				<h2>Vamos lá!</h2>
+				<p>Clique sobre as setas de cada termo para ver a dica correspondente.</p>
+			</div> -->
+			<!-- <div class="conf">
+				<div class="timer">60</div>
+			</div> -->
+		<!-- </div> -->
+	</main>
+
+<!-- <script type="text/javascript" src="assets/jquery-3.0.0.min.js"></script>
+<script type="text/javascript" src="assets/script.js"></script> -->
+</body>
+</html>
